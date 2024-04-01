@@ -1,0 +1,31 @@
+.menuheader-outer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuheader-inner{
+    display: flex;
+    width: 85%;
+    color: #989090;
+    height: 35px;
+    align-items: center;
+}
+.menuheader-left{
+    width: 25%;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    gap: 2px;
+    font-size: 12px;
+}
+.menuheader-right{
+    gap: 25px;
+    display: flex;
+    font-size: 14px;
+    margin-left: 5%;
+    color: #897e7ee7;
+}
+.menuheader-right a{
+    cursor: pointer;
+}
